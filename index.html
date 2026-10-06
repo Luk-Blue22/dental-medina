@@ -1,0 +1,1339 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="es"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Dental Medina | Dra. Daniela Medina - Cuidado Dental en Culiacán</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+tailwind.config = {
+  "darkMode": "class",
+  "theme": {
+    "extend": {
+      "colors": {
+        "brand": {
+          "50": "#F7F5FC",
+          "100": "#EFEBF8",
+          "200": "#DDD5EE",
+          "300": "#C2B3E0",
+          "400": "#9E89C9",
+          "500": "#7561A6",
+          "600": "#644F94",
+          "700": "#523F7E",
+          "800": "#433467",
+          "900": "#2E2442"
+        },
+        "surface": {
+          "DEFAULT": "#f8f9ff",
+          "subtle": "#F8F9FE",
+          "card": "#FFFFFF",
+          "border": "#E8E5F0",
+          "text": "#1E1B26",
+          "muted": "#666173"
+        },
+        "surface-container-highest": "#d9e3f4",
+        "on-secondary-container": "#594983",
+        "on-primary-container": "#f4ecff",
+        "on-secondary-fixed": "#200f48",
+        "error-container": "#ffdad6",
+        "secondary-fixed-dim": "#cfbcff",
+        "tertiary-fixed": "#e4e1ed",
+        "surface-variant": "#d9e3f4",
+        "on-tertiary": "#ffffff",
+        "inverse-primary": "#d0bcff",
+        "primary-fixed-dim": "#d0bcff",
+        "surface-dim": "#d1dbec",
+        "surface-container": "#e5eeff",
+        "secondary-container": "#cfbcff",
+        "outline-variant": "#cbc4d1",
+        "primary-container": "#7561a6",
+        "secondary-fixed": "#e9ddff",
+        "on-error": "#ffffff",
+        "inverse-on-surface": "#eaf1ff",
+        "surface-container-lowest": "#ffffff",
+        "outline": "#7a7581",
+        "on-surface-variant": "#49454f",
+        "tertiary": "#54535d",
+        "error": "#ba1a1a",
+        "on-tertiary-fixed-variant": "#474650",
+        "on-primary-fixed-variant": "#4e3b7d",
+        "surface-container-low": "#eef4ff",
+        "background": "#f8f9ff",
+        "on-secondary-fixed-variant": "#4d3d76",
+        "on-tertiary-fixed": "#1b1b24",
+        "on-tertiary-container": "#f1edfa",
+        "on-error-container": "#93000a",
+        "on-surface": "#121c28",
+        "secondary": "#655590",
+        "inverse-surface": "#27313e",
+        "surface-bright": "#f8f9ff",
+        "primary": "#5c498c",
+        "tertiary-container": "#6d6b76",
+        "on-background": "#121c28",
+        "primary-fixed": "#e9ddff",
+        "on-secondary": "#ffffff",
+        "on-primary": "#ffffff",
+        "tertiary-fixed-dim": "#c8c5d1",
+        "surface-tint": "#675397",
+        "on-primary-fixed": "#220a4f",
+        "surface-container-high": "#dfe9fa"
+      },
+      "fontFamily": {
+        "sans": [
+          "\"Plus Jakarta Sans\"",
+          "system-ui",
+          "sans-serif"
+        ],
+        "display-hero": [
+          "Plus Jakarta Sans"
+        ],
+        "display-hero-mobile": [
+          "Plus Jakarta Sans"
+        ],
+        "headline-sm": [
+          "Plus Jakarta Sans"
+        ],
+        "label-sm": [
+          "Plus Jakarta Sans"
+        ],
+        "label-md": [
+          "Plus Jakarta Sans"
+        ],
+        "label-lg": [
+          "Plus Jakarta Sans"
+        ],
+        "body-md": [
+          "Plus Jakarta Sans"
+        ],
+        "headline-md": [
+          "Plus Jakarta Sans"
+        ],
+        "headline-lg": [
+          "Plus Jakarta Sans"
+        ],
+        "body-sm": [
+          "Plus Jakarta Sans"
+        ],
+        "body-lg": [
+          "Plus Jakarta Sans"
+        ],
+        "headline-lg-mobile": [
+          "Plus Jakarta Sans"
+        ]
+      },
+      "boxShadow": {
+        "soft": "0 4px 20px -2px rgba(117, 97, 166, 0.08), 0 2px 6px -1px rgba(0, 0, 0, 0.04)",
+        "card": "0 10px 30px -5px rgba(46, 36, 66, 0.06), 0 4px 10px -2px rgba(0, 0, 0, 0.02)",
+        "glow": "0 0 40px -10px rgba(117, 97, 166, 0.25)"
+      },
+      "borderRadius": {
+        "DEFAULT": "0.25rem",
+        "lg": "0.5rem",
+        "xl": "0.75rem",
+        "full": "9999px"
+      },
+      "spacing": {
+        "space-lg": "1.5rem",
+        "space-xs": "0.25rem",
+        "space-sm": "0.5rem",
+        "margin": "1.5rem",
+        "gutter": "1.5rem",
+        "space-xl": "2.5rem",
+        "space-md": "1rem"
+      },
+      "fontSize": {
+        "display-hero": [
+          "48px",
+          {
+            "lineHeight": "56px",
+            "letterSpacing": "-0.02em",
+            "fontWeight": "700"
+          }
+        ],
+        "display-hero-mobile": [
+          "32px",
+          {
+            "lineHeight": "40px",
+            "letterSpacing": "-0.01em",
+            "fontWeight": "700"
+          }
+        ],
+        "headline-sm": [
+          "20px",
+          {
+            "lineHeight": "28px",
+            "fontWeight": "600"
+          }
+        ],
+        "label-sm": [
+          "11px",
+          {
+            "lineHeight": "14px",
+            "letterSpacing": "0.03em",
+            "fontWeight": "500"
+          }
+        ],
+        "label-md": [
+          "12px",
+          {
+            "lineHeight": "16px",
+            "letterSpacing": "0.02em",
+            "fontWeight": "600"
+          }
+        ],
+        "label-lg": [
+          "14px",
+          {
+            "lineHeight": "20px",
+            "letterSpacing": "0.01em",
+            "fontWeight": "600"
+          }
+        ],
+        "body-md": [
+          "16px",
+          {
+            "lineHeight": "24px",
+            "fontWeight": "400"
+          }
+        ],
+        "headline-md": [
+          "24px",
+          {
+            "lineHeight": "32px",
+            "fontWeight": "600"
+          }
+        ],
+        "headline-lg": [
+          "36px",
+          {
+            "lineHeight": "44px",
+            "letterSpacing": "-0.015em",
+            "fontWeight": "600"
+          }
+        ],
+        "body-sm": [
+          "14px",
+          {
+            "lineHeight": "20px",
+            "fontWeight": "400"
+          }
+        ],
+        "body-lg": [
+          "18px",
+          {
+            "lineHeight": "28px",
+            "fontWeight": "400"
+          }
+        ],
+        "headline-lg-mobile": [
+          "26px",
+          {
+            "lineHeight": "34px",
+            "letterSpacing": "-0.01em",
+            "fontWeight": "600"
+          }
+        ]
+      }
+    }
+  }
+}
+</script>
+<style>
+    .glass-nav {
+      background: rgba(255, 255, 255, 0.94);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+    }
+    .pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}
+    .pt-safe{padding-top:env(safe-area-inset-top,0px);}
+    #vista-movil main>:first-child{margin-top:0!important;}
+    #vista-movil main>:last-child{margin-bottom:0!important;}
+    #vista-escritorio section[id]{scroll-margin-top:5rem;}
+    #vista-movil section[id]{scroll-margin-top:4rem;}
+    /* Alternancia de diseños: escritorio >= 768px, móvil por debajo */
+    @media (max-width:767.98px){
+      #vista-escritorio{display:none!important;}
+      body{overscroll-behavior:none;}
+      ::-webkit-scrollbar{display:none;}
+    }
+    @media (min-width:768px){
+      #vista-movil{display:none!important;}
+    }
+  </style>
+</head>
+<body>
+<!-- ============ DISEÑO ESCRITORIO (>= 768px) ============ -->
+<div id="vista-escritorio" class="bg-surface-subtle text-surface-text font-sans antialiased min-h-screen flex flex-col selection:bg-brand-100 selection:text-brand-800">
+<!-- TOP UTILITY ANNOUNCEMENT BAR -->
+<aside class="bg-brand-900 text-brand-100 text-xs py-2.5 px-6 border-b border-brand-800/60 z-50">
+<div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-2.5">
+<div class="flex items-center gap-2 font-normal text-brand-200">
+<span class="material-symbols-outlined text-[15px] text-brand-300">location_on</span>
+<span>Torre de Castilla 6953, Fracc. Las Torres, Culiacán, Sin.</span>
+</div>
+<div class="flex flex-wrap items-center justify-center gap-6">
+<div class="flex items-center gap-1.5 font-medium">
+<span class="material-symbols-outlined text-[15px] text-brand-300">schedule</span>
+<span>L-V: 10:00 am – 6:00 pm | Sáb: 10:00 am – 1:00 pm</span>
+</div>
+<div class="hidden sm:inline-block w-px h-3 bg-brand-700/80"></div>
+<a class="flex items-center gap-1.5 text-white hover:text-brand-300 transition font-semibold" href="tel:+526671004545">
+<span class="material-symbols-outlined text-[15px] text-brand-300">call</span>
+<span>667 100 4545</span>
+</a>
+</div>
+</div>
+</aside>
+<!-- TOP HEADER / NAVEGACIÓN -->
+<header class="sticky top-0 z-40 glass-nav border-b border-surface-border/80 shadow-xs transition">
+<div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+<!-- LOGO -->
+<a aria-label="Dental Medina Inicio" class="flex items-center group transition transform hover:opacity-95" href="#inicio">
+<img alt="Dental Medina - Dra. Daniela Medina" class="h-11 w-auto object-contain" src="images/logo.png"/>
+</a>
+<!-- NAVIGATION LINKS -->
+<nav class="hidden md:flex items-center gap-8 text-sm font-semibold text-surface-muted">
+<a class="text-brand-600 hover:text-brand-800 transition" href="#inicio">Inicio</a>
+<a class="hover:text-brand-600 transition" href="#sobre-mi">Sobre la Doctora</a>
+<a class="hover:text-brand-600 transition" href="#servicios">Tratamientos</a>
+<a class="hover:text-brand-600 transition" href="#experiencia">Experiencia Clínica</a>
+<a class="hover:text-brand-600 transition" href="#opiniones">Testimonios</a>
+<a class="hover:text-brand-600 transition" href="#ubicacion">Ubicación &amp; Citas</a>
+</nav>
+<!-- CTA BUTTON CON PULSO WHATSAPP -->
+<div class="flex items-center gap-3">
+<a class="relative group inline-flex items-center gap-2.5 bg-brand-500 hover:bg-brand-600 active:bg-brand-700 text-white font-semibold text-sm px-5 py-2.5 rounded-full shadow-md hover:shadow-lg transition-all duration-200 transform hover:-translate-y-0.5" href="https://wa.me/526671004545?text=Hola%20Dra.%20Daniela%20Medina,%20deseo%20agendar%20una%20cita" rel="noopener noreferrer" target="_blank">
+<span class="relative flex h-2.5 w-2.5">
+<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-300 opacity-75"></span>
+<span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-emerald-400"></span>
+</span>
+<span class="material-symbols-outlined text-[19px]">chat</span>
+<span>Agendar cita por WhatsApp</span>
+</a>
+</div>
+</div>
+</header>
+<main class="flex-1">
+<!-- 1. HERO SECTION -->
+<section class="relative overflow-hidden pt-12 pb-20 lg:pt-20 lg:pb-28 bg-gradient-to-b from-brand-50/70 via-white to-surface-subtle" id="inicio">
+<!-- Subtle Decorative Background Glow -->
+<div class="absolute top-0 right-1/4 w-96 h-96 bg-brand-200/40 rounded-full blur-3xl pointer-events-none -z-10"></div>
+<div class="absolute bottom-10 left-10 w-80 h-80 bg-brand-100/50 rounded-full blur-3xl pointer-events-none -z-10"></div>
+<div class="max-w-7xl mx-auto px-6">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-14 items-center">
+<!-- Left Column: Copy & Actions -->
+<div class="lg:col-span-7 flex flex-col items-start space-y-7">
+<!-- Google Rating Pill Badge -->
+<div class="inline-flex items-center gap-2.5 bg-white px-4 py-2 rounded-full border border-brand-200/80 shadow-soft text-xs sm:text-sm text-surface-text">
+<div class="flex text-amber-400">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<span class="font-bold text-surface-text">Opiniones en Google</span>
+<span class="text-surface-muted border-l border-surface-border pl-2">(de pacientes)</span>
+</div>
+<!-- Main Heading & Doctor Identity -->
+<div class="space-y-3">
+<h1 class="text-3xl sm:text-5xl lg:text-[52px] font-extrabold tracking-tight text-surface-text leading-[1.18]">
+                Cuidado dental cercano, amable y de <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-600 to-brand-500">confianza</span> en Culiacán
+              </h1>
+<div class="flex items-center gap-3 pt-1">
+<span class="inline-block w-8 h-0.5 bg-brand-400 rounded-full"></span>
+<p class="text-lg sm:text-xl font-bold text-brand-700">
+                  Dra. Daniela Medina <span class="text-sm font-medium text-surface-muted">• Consultorio Dental en Culiacán, Sin.</span>
+</p>
+</div>
+</div>
+<p class="text-base sm:text-lg text-surface-muted leading-relaxed max-w-xl font-normal">
+              Atención personalizada con rigor clínico y un trato empático pensado para que cuides tu sonrisa con tranquilidad y comodidad.
+            </p>
+<!-- Action Buttons (Repetition 1) -->
+<div class="pt-2 flex flex-col sm:flex-row items-stretch sm:items-center gap-4 w-full sm:w-auto">
+<a class="inline-flex items-center justify-center gap-3 bg-brand-500 hover:bg-brand-600 text-white font-bold text-base px-8 py-4 rounded-full shadow-md hover:shadow-lg transition-all duration-200 transform hover:-translate-y-0.5" href="https://wa.me/526671004545?text=Hola%20Dra.%20Daniela%20Medina,%20deseo%20agendar%20una%20cita" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[22px]">chat</span>
+<span>Agendar cita por WhatsApp</span>
+</a>
+<a class="inline-flex items-center justify-center gap-2.5 bg-white hover:bg-brand-50/50 border border-surface-border hover:border-brand-300 text-surface-text font-semibold text-sm px-6 py-4 rounded-full shadow-xs transition" href="tel:+526671004545">
+<span class="material-symbols-outlined text-brand-600 text-[20px]">call</span>
+<span>Llamar (667 100 4545)</span>
+</a>
+</div>
+<!-- Trust Metric Pill Badges -->
+<div class="pt-4 grid grid-cols-1 sm:grid-cols-3 gap-3 w-full border-t border-brand-100/90 pt-6">
+<div class="flex items-center gap-2 text-xs font-semibold text-surface-text">
+<div class="w-6 h-6 rounded-full bg-emerald-50 text-emerald-600 flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[15px] font-bold">check</span>
+</div>
+<span>Higiene &amp; bioseguridad</span>
+</div>
+<div class="flex items-center gap-2 text-xs font-semibold text-surface-text">
+<div class="w-6 h-6 rounded-full bg-emerald-50 text-emerald-600 flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[15px] font-bold">check</span>
+</div>
+<span>Procedimientos cómodos</span>
+</div>
+<div class="flex items-center gap-2 text-xs font-semibold text-surface-text">
+<div class="w-6 h-6 rounded-full bg-emerald-50 text-emerald-600 flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[15px] font-bold">check</span>
+</div>
+<span>Trato humano y dedicado</span>
+</div>
+</div>
+</div>
+<!-- Right Column: Doctor Portrait & Floating Highlights -->
+<div class="lg:col-span-5 flex justify-center lg:justify-end">
+<div class="relative w-full max-w-[430px]">
+<!-- Subtle decorative ring aura -->
+<div class="absolute -inset-3 bg-gradient-to-tr from-brand-300/40 via-brand-100/20 to-brand-400/30 rounded-[32px] blur-2xl -z-10"></div>
+<!-- Main Portrait Container -->
+<div class="relative bg-white p-3.5 rounded-[28px] shadow-card border border-brand-200/90 overflow-hidden">
+<img alt="Dra. Daniela Medina - Consultorio dental en Culiacán" class="w-full aspect-square object-cover object-top rounded-[22px]" src="images/doctora.jpg"/>
+<!-- Floating Doctor Badge at bottom of image -->
+<div class="absolute bottom-6 left-6 right-6 bg-white/95 backdrop-blur-md p-4 rounded-2xl border border-brand-200/90 shadow-soft flex items-center gap-3.5">
+<div class="w-12 h-12 rounded-xl bg-brand-50 border border-brand-200 flex items-center justify-center text-brand-600 shrink-0">
+<span class="material-symbols-outlined text-[24px]">verified_user</span>
+</div>
+<div>
+<span class="text-[11px] font-bold uppercase tracking-wider text-brand-600">Consultorio Privado</span>
+<p class="text-base font-bold text-surface-text">Dra. Daniela Medina</p>
+<p class="text-xs text-surface-muted">Consultorio dental • Culiacán</p>
+</div>
+</div>
+</div>
+<!-- Top-Right Floating Experience Badge -->
+<div class="hidden sm:flex absolute -top-4 -right-4 bg-white/95 backdrop-blur-md px-4 py-3 rounded-2xl border border-brand-200 shadow-card items-center gap-3">
+<div class="w-9 h-9 rounded-xl bg-brand-500 text-white flex items-center justify-center font-bold">
+<span class="material-symbols-outlined text-[20px]">thumb_up</span>
+</div>
+<div class="text-left">
+<p class="text-xs font-bold text-surface-text">Trato personalizado</p>
+<p class="text-[11px] text-surface-muted">Atención sin prisas</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 2. SOBRE LA DOCTORA -->
+<section class="py-20 bg-white border-y border-surface-border" id="sobre-mi">
+<div class="max-w-6xl mx-auto px-6">
+<div class="text-center max-w-3xl mx-auto mb-14">
+<div class="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-brand-600 bg-brand-50 border border-brand-200 px-3.5 py-1.5 rounded-full mb-4">
+<span class="material-symbols-outlined text-[16px]">stethoscope</span>
+<span>Sobre la Doctora</span>
+</div>
+<h2 class="text-3xl sm:text-4xl font-extrabold text-surface-text tracking-tight mb-4">
+            Atención cercana con vocación de servicio
+          </h2>
+<p class="text-lg text-surface-muted leading-relaxed font-normal">
+            Atención dental personalizada y cercana, con protocolos de higiene para que tu experiencia en consulta sea siempre cómoda y tranquila.
+          </p>
+</div>
+<!-- 3 Feature Pillars -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
+<div class="bg-surface-subtle p-7 rounded-2xl border border-surface-border hover:border-brand-200 hover:shadow-soft transition-all duration-200 group">
+<div class="w-13 h-13 w-12 h-12 rounded-xl bg-brand-100 text-brand-600 flex items-center justify-center mb-5 group-hover:bg-brand-500 group-hover:text-white transition">
+<span class="material-symbols-outlined text-[26px]">person_check</span>
+</div>
+<h3 class="text-lg font-bold text-surface-text mb-2">Atención individualizada y sin prisas</h3>
+<p class="text-sm text-surface-muted leading-relaxed">
+              Cada paciente recibe el tiempo necesario para resolver dudas, revisar a detalle su estado bucodental y planificar el mejor tratamiento.
+            </p>
+</div>
+<div class="bg-surface-subtle p-7 rounded-2xl border border-surface-border hover:border-brand-200 hover:shadow-soft transition-all duration-200 group">
+<div class="w-12 h-12 rounded-xl bg-brand-100 text-brand-600 flex items-center justify-center mb-5 group-hover:bg-brand-500 group-hover:text-white transition">
+<span class="material-symbols-outlined text-[26px]">medical_services</span>
+</div>
+<h3 class="text-lg font-bold text-surface-text mb-2">Materiales de uso odontológico</h3>
+<p class="text-sm text-surface-muted leading-relaxed">
+              Utilizamos insumos de grado odontológico para restauraciones con acabados naturales.
+            </p>
+</div>
+<div class="bg-surface-subtle p-7 rounded-2xl border border-surface-border hover:border-brand-200 hover:shadow-soft transition-all duration-200 group">
+<div class="w-12 h-12 rounded-xl bg-brand-100 text-brand-600 flex items-center justify-center mb-5 group-hover:bg-brand-500 group-hover:text-white transition">
+<span class="material-symbols-outlined text-[26px]">sanitizer</span>
+</div>
+<h3 class="text-lg font-bold text-surface-text mb-2">Espacio esterilizado y acogedor</h3>
+<p class="text-sm text-surface-muted leading-relaxed">
+              Protocolos de desinfección y esterilización contribuyen a un ambiente seguro para tu tranquilidad y la de tu familia.
+            </p>
+</div>
+</div>
+</div>
+</section>
+<!-- 3. TRATAMIENTOS / SERVICIOS (ELEVATED 3-CARD LAYOUT) -->
+<section class="py-20 lg:py-24 bg-surface-subtle" id="servicios">
+<div class="max-w-7xl mx-auto px-6">
+<div class="text-center max-w-2xl mx-auto mb-14">
+<div class="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-brand-600 bg-brand-100/70 border border-brand-200 px-3.5 py-1.5 rounded-full mb-3">
+<span class="material-symbols-outlined text-[16px]">health_and_safety</span>
+<span>Tratamientos Dentales</span>
+</div>
+<h2 class="text-3xl sm:text-4xl font-extrabold text-surface-text tracking-tight mb-3">Nuestros Servicios</h2>
+<p class="text-surface-muted font-normal">Procedimientos dentales realizados con técnicas cuidadosas y materiales adecuados.</p>
+</div>
+<!-- 3 Tarjetas de Servicios con Íconos y Beneficios Claros -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+<!-- Servicio 1: Limpieza Dental -->
+<div class="bg-white p-8 rounded-3xl border border-surface-border hover:border-brand-300 shadow-soft hover:shadow-card transition-all duration-300 flex flex-col justify-between group">
+<div>
+<div class="w-16 h-16 rounded-2xl bg-brand-50 text-brand-600 flex items-center justify-center mb-6 border border-brand-100 group-hover:scale-105 transition">
+<span class="material-symbols-outlined text-[32px]">clean_hands</span>
+</div>
+<h3 class="text-xl font-bold text-surface-text mb-3">Limpieza Dental</h3>
+<p class="text-sm text-surface-muted leading-relaxed mb-6">
+                Profilaxis profunda para la remoción de sarro, placa bacteriana y manchas superficiales, preservando encías saludables.
+              </p>
+<!-- Puntos clave del tratamiento -->
+<ul class="space-y-2.5 pt-4 border-t border-surface-border text-xs text-surface-text">
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-brand-500 text-[18px]">check_circle</span>
+<span>Profilaxis dental cuidadosa</span>
+</li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-brand-500 text-[18px]">check_circle</span>
+<span>Eliminación de sarro y placa dental</span>
+</li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-brand-500 text-[18px]">check_circle</span>
+<span>Pulido y prevención gingival</span>
+</li>
+</ul>
+</div>
+<div class="pt-8">
+<a class="inline-flex items-center justify-center gap-2 w-full py-2.5 px-4 rounded-xl text-xs font-semibold text-brand-700 bg-brand-50 hover:bg-brand-100 border border-brand-200 transition" href="https://wa.me/526671004545?text=Hola%20Dra.%20Daniela%20Medina,%20deseo%20informaci%C3%B3n%20sobre%20Limpieza%20Dental" rel="noopener noreferrer" target="_blank">
+<span>Consultar por Limpieza</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Servicio 2: Resinas Estéticas -->
+<div class="bg-white p-8 rounded-3xl border-2 border-brand-300 shadow-card transition-all duration-300 flex flex-col justify-between relative group">
+<div class="absolute -top-3.5 right-6 bg-brand-500 text-white text-[11px] font-bold uppercase tracking-wider px-3.5 py-1 rounded-full shadow-sm">
+              Tratamiento Frecuente
+            </div>
+<div>
+<div class="w-16 h-16 rounded-2xl bg-brand-500 text-white flex items-center justify-center mb-6 shadow-soft group-hover:scale-105 transition">
+<span class="material-symbols-outlined text-[32px]">dentistry</span>
+</div>
+<h3 class="text-xl font-bold text-surface-text mb-3">Resinas Estéticas</h3>
+<p class="text-sm text-surface-muted leading-relaxed mb-6">
+                Restauraciones estéticas adaptadas al tono natural de tus dientes para devolver su anatomía y función.
+              </p>
+<!-- Puntos clave del tratamiento -->
+<ul class="space-y-2.5 pt-4 border-t border-surface-border text-xs text-surface-text">
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-brand-500 text-[18px]">check_circle</span>
+<span>Tono similar al esmalte natural</span>
+</li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-brand-500 text-[18px]">check_circle</span>
+<span>Eliminación precisa de caries</span>
+</li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-brand-500 text-[18px]">check_circle</span>
+<span>Restauración funcional y estética</span>
+</li>
+</ul>
+</div>
+<div class="pt-8">
+<a class="inline-flex items-center justify-center gap-2 w-full py-2.5 px-4 rounded-xl text-xs font-semibold text-white bg-brand-500 hover:bg-brand-600 transition shadow-sm" href="https://wa.me/526671004545?text=Hola%20Dra.%20Daniela%20Medina,%20deseo%20informaci%C3%B3n%20sobre%20Resinas" rel="noopener noreferrer" target="_blank">
+<span>Consultar por Resinas</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Servicio 3: Extracciones -->
+<div class="bg-white p-8 rounded-3xl border border-surface-border hover:border-brand-300 shadow-soft hover:shadow-card transition-all duration-300 flex flex-col justify-between group">
+<div>
+<div class="w-16 h-16 rounded-2xl bg-brand-50 text-brand-600 flex items-center justify-center mb-6 border border-brand-100 group-hover:scale-105 transition">
+<span class="material-symbols-outlined text-[32px]">healing</span>
+</div>
+<h3 class="text-xl font-bold text-surface-text mb-3">Extracciones</h3>
+<p class="text-sm text-surface-muted leading-relaxed mb-6">
+                Procedimientos quirúrgicos menores realizados con delicadeza, anestesia guiada y la mayor comodidad posible.
+              </p>
+<!-- Puntos clave del tratamiento -->
+<ul class="space-y-2.5 pt-4 border-t border-surface-border text-xs text-surface-text">
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-brand-500 text-[18px]">check_circle</span>
+<span>Procedimientos delicados y controlados</span>
+</li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-brand-500 text-[18px]">check_circle</span>
+<span>Anestesia aplicada con cuidado</span>
+</li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-brand-500 text-[18px]">check_circle</span>
+<span>Instrucciones claras de recuperación</span>
+</li>
+</ul>
+</div>
+<div class="pt-8">
+<a class="inline-flex items-center justify-center gap-2 w-full py-2.5 px-4 rounded-xl text-xs font-semibold text-brand-700 bg-brand-50 hover:bg-brand-100 border border-brand-200 transition" href="https://wa.me/526671004545?text=Hola%20Dra.%20Daniela%20Medina,%20deseo%20informaci%C3%B3n%20sobre%20Extracciones" rel="noopener noreferrer" target="_blank">
+<span>Consultar por Extracciones</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Banner de Acción Intermedio (Repetición 2) -->
+<div class="bg-gradient-to-r from-brand-900 to-brand-800 rounded-3xl p-8 lg:p-10 text-white shadow-card flex flex-col md:flex-row items-center justify-between gap-6">
+<div class="space-y-1.5 text-center md:text-left">
+<h3 class="text-xl sm:text-2xl font-bold">¿Tienes dudas sobre qué tratamiento necesitas?</h3>
+<p class="text-brand-200 text-sm max-w-xl">
+              Recibe orientación directa de la Dra. Daniela Medina y programa tu valoración inicial con cita previa.
+            </p>
+</div>
+<a class="inline-flex items-center gap-2.5 bg-brand-500 hover:bg-brand-600 text-white font-bold text-sm px-7 py-3.5 rounded-full shadow-md transition shrink-0 transform hover:-translate-y-0.5" href="https://wa.me/526671004545?text=Hola%20Dra.%20Daniela%20Medina,%20deseo%20agendar%20una%20cita%20de%20valoraci%C3%B3n" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[20px]">chat</span>
+<span>Agendar cita por WhatsApp</span>
+</a>
+</div>
+</div>
+</section>
+<!-- 4. EXPERIENCIA Y BIENESTAR EN CONSULTA (CLINIC PILLARS) -->
+<section class="py-20 bg-white border-y border-surface-border" id="experiencia">
+<div class="max-w-7xl mx-auto px-6">
+<div class="text-center max-w-2xl mx-auto mb-14">
+<div class="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-brand-600 bg-brand-50 border border-brand-200 px-3.5 py-1.5 rounded-full mb-3">
+<span class="material-symbols-outlined text-[16px]">verified</span>
+<span>Compromiso Clínico</span>
+</div>
+<h2 class="text-3xl font-extrabold text-surface-text mb-3">Tu salud bucal en buenas manos</h2>
+<p class="text-surface-muted">Una experiencia odontológica moderna diseñada para ayudarte a sentir confianza y tranquilidad.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<div class="p-6 rounded-2xl border border-surface-border bg-surface-subtle/50 flex flex-col items-start">
+<div class="w-12 h-12 rounded-xl bg-brand-50 text-brand-600 flex items-center justify-center mb-4">
+<span class="material-symbols-outlined text-[26px]">shield_with_heart</span>
+</div>
+<h4 class="text-base font-bold text-surface-text mb-2">Bioseguridad e Higiene Quirúrgica</h4>
+<p class="text-xs text-surface-muted leading-relaxed">
+              Materiales esterilizados y protocolos de higiene para tu protección y tranquilidad.
+            </p>
+</div>
+<div class="p-6 rounded-2xl border border-surface-border bg-surface-subtle/50 flex flex-col items-start">
+<div class="w-12 h-12 rounded-xl bg-brand-50 text-brand-600 flex items-center justify-center mb-4">
+<span class="material-symbols-outlined text-[26px]">mood</span>
+</div>
+<h4 class="text-base font-bold text-surface-text mb-2">Consulta tranquila y cómoda</h4>
+<p class="text-xs text-surface-muted leading-relaxed">
+              Técnicas anestésicas guiadas, explicaciones en cada paso y ambiente calmado para una consulta placentera.
+            </p>
+</div>
+<div class="p-6 rounded-2xl border border-surface-border bg-surface-subtle/50 flex flex-col items-start">
+<div class="w-12 h-12 rounded-xl bg-brand-50 text-brand-600 flex items-center justify-center mb-4">
+<span class="material-symbols-outlined text-[26px]">directions_car</span>
+</div>
+<h4 class="text-base font-bold text-surface-text mb-2">Ubicación Céntrica y Estacionamiento</h4>
+<p class="text-xs text-surface-muted leading-relaxed">
+              Ubicado en Fraccionamiento Las Torres, zona segura de fácil acceso vial con comodidad para tu visita.
+            </p>
+</div>
+</div>
+</div>
+</section>
+<!-- 5. OPINIONES / RESEÑAS REALES -->
+<section class="py-20 lg:py-24 bg-surface-subtle" id="opiniones">
+<div class="max-w-7xl mx-auto px-6">
+<!-- Header Testimonios -->
+<div class="flex flex-col md:flex-row items-start md:items-end justify-between gap-6 mb-14">
+<div>
+<div class="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-wider text-brand-600 bg-brand-100/70 border border-brand-200 px-3.5 py-1.5 rounded-full mb-3">
+<span class="material-symbols-outlined text-[16px]">rate_review</span>
+<span>Testimonios</span>
+</div>
+<h2 class="text-3xl sm:text-4xl font-extrabold text-surface-text tracking-tight">Lo que dicen los pacientes</h2>
+<p class="text-surface-muted text-sm mt-1">Opiniones compartidas por pacientes.</p>
+</div>
+<!-- Google Rating Summary Badge -->
+<div class="flex items-center gap-3 bg-white px-5 py-3 rounded-2xl border border-brand-200 shadow-soft">
+<div class="flex flex-col">
+<div class="flex items-center gap-1.5">
+<span class="text-2xl font-black text-surface-text">Google</span>
+<div class="flex text-amber-400">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+</div>
+<span class="text-[11px] text-surface-muted font-medium">Opiniones de pacientes</span>
+</div>
+</div>
+</div>
+<!-- Las 3 Reseñas Textuales Originales -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
+<!-- Reseña 1 -->
+<div class="bg-white p-8 rounded-3xl border border-surface-border shadow-soft flex flex-col justify-between relative group hover:border-brand-300 transition">
+<div class="space-y-4">
+<div class="flex text-amber-400">
+<span class="material-symbols-outlined text-[19px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[19px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[19px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[19px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[19px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="text-base text-surface-text italic leading-relaxed">
+                “Excelente doctora, muy profesional. Me explicó mi procedimiento con detalle.”
+              </p>
+</div>
+<div class="pt-6 mt-6 border-t border-surface-border flex items-center justify-between">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-brand-100 text-brand-700 flex items-center justify-center font-bold text-sm">
+                  P
+                </div>
+<div>
+<p class="text-xs font-bold text-surface-text">Paciente</p>
+<p class="text-[11px] text-surface-muted">Testimonio</p>
+</div>
+</div>
+<span class="material-symbols-outlined text-brand-400 text-[18px]">verified</span>
+</div>
+</div>
+<!-- Reseña 2 (Destacada) -->
+<div class="bg-brand-50/70 p-8 rounded-3xl border border-brand-200/90 shadow-soft flex flex-col justify-between relative group">
+<div class="space-y-4">
+<div class="flex text-amber-400">
+<span class="material-symbols-outlined text-[19px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[19px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[19px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[19px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[19px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="text-base text-surface-text italic leading-relaxed font-medium">
+                “Atención personalizada y amable; el procedimiento fue cómodo y sin complicaciones.”
+              </p>
+</div>
+<div class="pt-6 mt-6 border-t border-brand-200/60 flex items-center justify-between">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-brand-500 text-white flex items-center justify-center font-bold text-sm shadow-xs">
+                  P
+                </div>
+<div>
+<p class="text-xs font-bold text-surface-text">Paciente</p>
+<p class="text-[11px] text-surface-muted">Testimonio</p>
+</div>
+</div>
+<span class="material-symbols-outlined text-brand-600 text-[18px]">verified</span>
+</div>
+</div>
+<!-- Reseña 3 -->
+<div class="bg-white p-8 rounded-3xl border border-surface-border shadow-soft flex flex-col justify-between relative group hover:border-brand-300 transition">
+<div class="space-y-4">
+<div class="flex text-amber-400">
+<span class="material-symbols-outlined text-[19px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[19px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[19px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[19px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[19px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="text-base text-surface-text italic leading-relaxed">
+                “Cuentan con medidas de higiene adecuadas.”
+              </p>
+</div>
+<div class="pt-6 mt-6 border-t border-surface-border flex items-center justify-between">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-brand-100 text-brand-700 flex items-center justify-center font-bold text-sm">
+                  P
+                </div>
+<div>
+<p class="text-xs font-bold text-surface-text">Paciente</p>
+<p class="text-[11px] text-surface-muted">Testimonio</p>
+</div>
+</div>
+<span class="material-symbols-outlined text-brand-400 text-[18px]">verified</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 6. HORARIOS Y UBICACIÓN -->
+<section class="py-20 lg:py-24 bg-white border-t border-surface-border" id="ubicacion">
+<div class="max-w-7xl mx-auto px-6">
+<div class="text-center max-w-2xl mx-auto mb-14">
+<div class="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-brand-600 bg-brand-50 border border-brand-200 px-3.5 py-1.5 rounded-full mb-3">
+<span class="material-symbols-outlined text-[16px]">pin_drop</span>
+<span>Atención en Culiacán</span>
+</div>
+<h2 class="text-3xl sm:text-4xl font-extrabold text-surface-text tracking-tight mb-3">Horarios y Ubicación</h2>
+<p class="text-surface-muted">Visítanos en Fraccionamiento Las Torres. Te atendemos con cita programada para tu comodidad.</p>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-10">
+<!-- Bloque Horarios -->
+<div class="bg-surface-subtle p-8 lg:p-10 rounded-3xl border border-surface-border shadow-soft flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-6">
+<div class="w-12 h-12 rounded-2xl bg-brand-100 text-brand-600 flex items-center justify-center">
+<span class="material-symbols-outlined text-[26px]">schedule</span>
+</div>
+<span class="inline-flex items-center gap-1.5 bg-emerald-100/80 text-emerald-800 text-xs font-semibold px-3 py-1 rounded-full border border-emerald-200">
+<span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+<span>Atención con cita previa</span>
+</span>
+</div>
+<h3 class="text-2xl font-bold text-surface-text mb-6">Horarios de Consulta</h3>
+<div class="space-y-4 mb-8">
+<div class="flex items-center justify-between p-3.5 bg-white rounded-xl border border-surface-border">
+<span class="font-semibold text-sm text-surface-text">Lunes a Viernes</span>
+<span class="text-brand-700 font-bold text-xs bg-brand-50 border border-brand-200 px-3 py-1 rounded-full">10:00 am – 6:00 pm</span>
+</div>
+<div class="flex items-center justify-between p-3.5 bg-white rounded-xl border border-surface-border">
+<span class="font-semibold text-sm text-surface-text">Sábado</span>
+<span class="text-brand-700 font-bold text-xs bg-brand-50 border border-brand-200 px-3 py-1 rounded-full">10:00 am – 1:00 pm</span>
+</div>
+<div class="flex items-center justify-between p-3.5 bg-white/70 rounded-xl border border-surface-border/70 text-surface-muted text-sm">
+<span>Domingo</span>
+<span class="font-medium text-xs bg-surface-subtle px-3 py-1 rounded-full border border-surface-border">Cerrado</span>
+</div>
+</div>
+<p class="text-xs text-surface-muted mb-6">
+                * Para evitar tiempos de espera y procurar un espacio individualizado, la atención se realiza previa cita.
+              </p>
+</div>
+<!-- Botón Cita WhatsApp (Repetición 3) -->
+<a class="w-full inline-flex items-center justify-center gap-2.5 bg-brand-500 hover:bg-brand-600 text-white font-bold py-4 px-6 rounded-2xl shadow-md transition transform hover:-translate-y-0.5" href="https://wa.me/526671004545?text=Hola%20Dra.%20Daniela%20Medina,%20deseo%20agendar%20una%20cita" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[20px]">chat</span>
+<span>Agendar cita por WhatsApp</span>
+</a>
+</div>
+<!-- Bloque Ubicación -->
+<div class="bg-surface-subtle p-8 lg:p-10 rounded-3xl border border-surface-border shadow-soft flex flex-col justify-between">
+<div>
+<div class="w-12 h-12 rounded-2xl bg-brand-100 text-brand-600 flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-[26px]">location_on</span>
+</div>
+<h3 class="text-2xl font-bold text-surface-text mb-4">Ubicación del Consultorio</h3>
+<div class="bg-white p-5 rounded-2xl border border-surface-border mb-6">
+<div class="flex items-start gap-3">
+<span class="material-symbols-outlined text-brand-600 text-[22px] mt-0.5">apartment</span>
+<div>
+<p class="font-bold text-surface-text text-base">Dental Medina</p>
+<p class="text-sm text-surface-muted mt-0.5">
+                      Torre de Castilla 6953, Fraccionamiento Las Torres, Culiacán, Sinaloa, México.
+                    </p>
+<p class="text-xs text-brand-600 mt-2 font-medium">Zona residencial tranquila con facilidad de aparcamiento</p>
+</div>
+</div>
+</div>
+<!-- Stylized Interactive Map Preview Card -->
+<div class="relative w-full h-36 rounded-2xl bg-gradient-to-br from-brand-100 via-brand-50 to-surface-subtle border border-brand-200/90 flex flex-col items-center justify-center text-center p-4 mb-6 overflow-hidden">
+<div class="absolute inset-0 opacity-10 bg-[radial-gradient(#7561a6_1px,transparent_1px)] [background-size:16px_16px]"></div>
+<div class="relative z-10 flex flex-col items-center">
+<div class="w-10 h-10 rounded-full bg-brand-500 text-white flex items-center justify-center shadow-md mb-1.5 animate-bounce">
+<span class="material-symbols-outlined text-[20px]">location_on</span>
+</div>
+<span class="text-xs font-bold text-surface-text">Fracc. Las Torres, Culiacán</span>
+<span class="text-[11px] text-surface-muted">Torre de Castilla 6953</span>
+</div>
+</div>
+</div>
+<!-- Botón Cómo Llegar -->
+<a class="w-full inline-flex items-center justify-center gap-2 bg-white hover:bg-brand-50 text-brand-700 font-bold border border-brand-300 py-4 px-6 rounded-2xl shadow-xs transition" href="https://maps.google.com/?q=Torre+de+Castilla+6953+Fraccionamiento+Las+Torres+Culiacan+Sinaloa" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[20px]">near_me</span>
+<span>Abrir en Google Maps / Cómo llegar</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- 7. FOOTER COMPLETO Y PROFESIONAL -->
+<footer class="bg-brand-900 text-white pt-16 pb-12 border-t border-brand-800">
+<div class="max-w-7xl mx-auto px-6">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-10 pb-12 border-b border-brand-800/80">
+<!-- Logo & Bio -->
+<div class="md:col-span-5 space-y-4">
+<div class="bg-white/95 p-3 rounded-xl inline-block">
+<img alt="Dental Medina" class="h-9 w-auto" src="images/logo.png"/>
+</div>
+<p class="text-sm text-brand-200 leading-relaxed max-w-sm">
+            Consultorio dental con atención odontológica integral, estética y preventiva en Culiacán. Cuidado con vocación, calidez y rigor profesional.
+          </p>
+<div class="pt-2 text-xs text-brand-300 flex items-center gap-2">
+<span class="material-symbols-outlined text-[16px] text-emerald-400">verified</span>
+<span>Dra. Daniela Medina • Consultorio dental</span>
+</div>
+</div>
+<!-- Enlaces Rápidos -->
+<div class="md:col-span-3 space-y-3">
+<h4 class="text-xs font-bold uppercase tracking-wider text-brand-300">Navegación</h4>
+<ul class="space-y-2 text-sm text-brand-200">
+<li><a class="hover:text-white transition" href="#inicio">Inicio</a></li>
+<li><a class="hover:text-white transition" href="#sobre-mi">Sobre la Doctora</a></li>
+<li><a class="hover:text-white transition" href="#servicios">Tratamientos Dentales</a></li>
+<li><a class="hover:text-white transition" href="#experiencia">Experiencia Clínica</a></li>
+<li><a class="hover:text-white transition" href="#opiniones">Testimonios de Pacientes</a></li>
+<li><a class="hover:text-white transition" href="#ubicacion">Horarios y Ubicación</a></li>
+</ul>
+</div>
+<!-- Contacto Directo -->
+<div class="md:col-span-4 space-y-3">
+<h4 class="text-xs font-bold uppercase tracking-wider text-brand-300">Contacto &amp; Citas</h4>
+<div class="space-y-3 text-sm text-brand-200">
+<div class="flex items-start gap-2.5">
+<span class="material-symbols-outlined text-brand-300 text-[18px] shrink-0 mt-0.5">location_on</span>
+<span>Torre de Castilla 6953, Fraccionamiento Las Torres, Culiacán, Sin.</span>
+</div>
+<div class="flex items-center gap-2.5">
+<span class="material-symbols-outlined text-brand-300 text-[18px] shrink-0">call</span>
+<a class="hover:text-white font-bold transition" href="tel:+526671004545">667 100 4545</a>
+</div>
+<div class="flex items-center gap-2.5">
+<span class="material-symbols-outlined text-brand-300 text-[18px] shrink-0">chat</span>
+<a class="hover:text-white font-medium underline underline-offset-4 transition" href="https://wa.me/526671004545?text=Hola%20Dra.%20Daniela%20Medina,%20deseo%20agendar%20una%20cita" rel="noopener noreferrer" target="_blank">
+                WhatsApp Directo Consultorio
+              </a>
+</div>
+</div>
+</div>
+</div>
+<!-- Copyright & Bottom notes -->
+<div class="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-brand-300/80 gap-4">
+<p>© 2026 Dental Medina - Dra. Daniela Medina. Todos los derechos reservados.</p>
+<p class="text-center sm:text-right">Culiacán, Sinaloa, México • Compromiso ético y atención cuidadosa</p>
+</div>
+</div>
+</footer>
+</div>
+<!-- ============ DISEÑO MÓVIL (< 768px) ============ -->
+<div id="vista-movil" class="bg-surface font-body-md text-on-surface flex flex-col min-h-screen">
+<header class="fixed top-0 w-full z-50 pt-safe bg-surface/85 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-16 px-space-md flex items-center justify-between gap-space-sm"><div class="flex items-center gap-space-sm min-w-0"><img alt="Logotipo tipográfico y símbolo sutil de diente para Dental Medina - Dra. Daniela Medina" class="h-8 w-auto object-contain" src="images/logo.png"/><div class="flex flex-col min-w-0"><span class="font-label-md text-label-md text-primary font-semibold truncate">Dental Medina</span><span class="font-label-sm text-label-sm text-on-surface-variant truncate">Dra. Daniela Medina</span></div></div><div class="flex items-center gap-space-xs"><a class="min-h-[44px] px-space-sm py-1.5 flex items-center gap-1.5 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-md text-label-md transition-colors" href="tel:+526671004545"><span class="material-symbols-outlined text-[18px]">call</span><span class="hidden sm:inline">667 100 4545</span></a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center shrink-0"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="flex-1 flex flex-col relative w-full pt-16 bg-surface pb-36"><div class="flex flex-col w-full">
+<!-- 1. Hero Section -->
+<section id="m-inicio" class="flex flex-col px-space-md pt-space-md pb-space-lg gap-space-md bg-gradient-to-b from-surface-container-low via-surface to-surface">
+<!-- Rating Pill -->
+<div class="inline-flex items-center gap-1.5 self-start px-3 py-1 rounded-full bg-secondary-fixed text-on-secondary-fixed shadow-sm">
+<span class="material-symbols-outlined text-[16px] text-primary" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-md text-label-md">Opiniones en Google (de pacientes)</span>
+</div>
+<!-- Hero Headlines -->
+<div class="flex flex-col gap-1.5">
+<h1 class="font-headline-lg-mobile text-headline-lg-mobile text-on-surface tracking-tight">
+        Cuidado dental cercano, amable y de confianza en Culiacán
+      </h1>
+<p class="font-body-md text-body-md text-primary font-medium">
+        Dra. Daniela Medina • Consultorio Dental en Culiacán, Sin.
+      </p>
+</div>
+<!-- Doctor Image Showcase with Floating Badge -->
+<div class="relative w-full rounded-2xl overflow-hidden shadow-lg bg-surface-container-highest aspect-[4/4.5] max-h-[380px]">
+<img alt="Dra. Daniela Medina sonriendo cálidamente en su consultorio dental en Culiacán" class="w-full h-full object-cover object-top" src="images/doctora.jpg"/>
+<div class="absolute bottom-3 left-3 right-3 flex items-center gap-2 bg-surface-container-lowest/90 backdrop-blur-md px-3.5 py-2 rounded-xl shadow-md">
+<span class="flex h-2.5 w-2.5 relative">
+<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
+<span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-primary"></span>
+</span>
+<span class="font-label-md text-label-md text-on-surface font-semibold truncate">Trato personalizado · Atención sin prisas</span>
+</div>
+</div>
+<!-- Doctor Credential Card -->
+<div class="flex items-center gap-3 p-3.5 rounded-xl bg-surface-container-lowest shadow-sm">
+<div class="w-10 h-10 rounded-full bg-secondary-fixed flex items-center justify-center shrink-0 text-primary">
+<span class="material-symbols-outlined text-[22px]">verified_user</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Consultorio Privado</span>
+<span class="font-label-lg text-label-lg text-on-surface font-bold truncate">Dra. Daniela Medina</span>
+<span class="font-label-sm text-label-sm text-primary">Consultorio dental • Culiacán</span>
+</div>
+</div>
+<!-- Action Buttons -->
+<div class="flex flex-col gap-2.5 pt-1">
+<a class="w-full min-h-[48px] px-5 py-3 flex items-center justify-center gap-2 rounded-full bg-primary text-on-primary font-label-lg text-label-lg shadow-md hover:bg-primary-container transition-all" href="https://wa.me/526671004545?text=Hola%20Dra.%20Daniela%20Medina,%20deseo%20agendar%20una%20cita" target="_blank">
+<span class="material-symbols-outlined text-[20px]">chat</span>
+<span>Agendar cita por WhatsApp</span>
+</a>
+<a class="w-full min-h-[44px] px-5 py-2.5 flex items-center justify-center gap-2 rounded-full bg-surface-container text-primary font-label-lg text-label-lg hover:bg-surface-container-high transition-all" href="tel:+526671004545">
+<span class="material-symbols-outlined text-[20px]">call</span>
+<span>Llamar (667 100 4545)</span>
+</a>
+</div>
+<!-- Micro-benefits -->
+<div class="flex flex-col gap-2 pt-1 pb-1">
+<div class="flex items-center gap-2.5">
+<div class="w-5 h-5 rounded-full bg-secondary-fixed flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-primary text-[14px]">check</span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface">Higiene &amp; bioseguridad</span>
+</div>
+<div class="flex items-center gap-2.5">
+<div class="w-5 h-5 rounded-full bg-secondary-fixed flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-primary text-[14px]">check</span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface">Procedimientos cómodos</span>
+</div>
+<div class="flex items-center gap-2.5">
+<div class="w-5 h-5 rounded-full bg-secondary-fixed flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-primary text-[14px]">check</span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface">Trato humano y dedicado</span>
+</div>
+</div>
+</section>
+<!-- 2. Sobre la Doctora & Pilares -->
+<section id="m-sobre-mi" class="flex flex-col px-space-md py-space-xl gap-space-md bg-surface-container-lowest">
+<div class="flex flex-col gap-1.5">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-primary font-bold">SOBRE LA DOCTORA</span>
+<h2 class="font-headline-md text-headline-md text-on-surface">Atención cercana con vocación de servicio</h2>
+<p class="font-body-md text-body-md text-on-surface-variant pt-1 leading-relaxed">
+        Atención dental personalizada y cercana, con protocolos de higiene para que tu experiencia en consulta sea siempre cómoda y tranquila.
+      </p>
+</div>
+<div class="flex flex-col gap-3.5 pt-2">
+<!-- Pillar 1 -->
+<div class="flex flex-col gap-2 p-4 rounded-2xl bg-surface-container-low shadow-sm">
+<div class="w-10 h-10 rounded-full bg-secondary-fixed flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[22px]">hourglass_top</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Atención individualizada y sin prisas</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+          Cada paciente recibe el tiempo necesario para resolver dudas, revisar a detalle su estado bucodental y planificar el mejor tratamiento.
+        </p>
+</div>
+<!-- Pillar 2 -->
+<div class="flex flex-col gap-2 p-4 rounded-2xl bg-surface-container-low shadow-sm">
+<div class="w-10 h-10 rounded-full bg-secondary-fixed flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[22px]">precision_manufacturing</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Materiales de uso odontológico</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+          Utilizamos insumos de grado odontológico para restauraciones con acabados naturales.
+        </p>
+</div>
+<!-- Pillar 3 -->
+<div class="flex flex-col gap-2 p-4 rounded-2xl bg-surface-container-low shadow-sm">
+<div class="w-10 h-10 rounded-full bg-secondary-fixed flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[22px]">sanitizer</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Espacio esterilizado y acogedor</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+          Protocolos de desinfección y esterilización contribuyen a un ambiente seguro para tu tranquilidad y la de tu familia.
+        </p>
+</div>
+</div>
+</section>
+<!-- 3. Nuestros Servicios (Tratamientos) -->
+<section id="m-servicios" class="flex flex-col px-space-md py-space-xl gap-space-md bg-surface">
+<div class="flex flex-col gap-1.5">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-primary font-bold">TRATAMIENTOS DENTALES</span>
+<h2 class="font-headline-md text-headline-md text-on-surface">Nuestros Servicios</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+        Procedimientos dentales realizados con técnicas cuidadosas y materiales adecuados.
+      </p>
+</div>
+<!-- Treatment Cards -->
+<div class="flex flex-col gap-4">
+<!-- Card 1: Limpieza Dental -->
+<div class="flex flex-col p-4 rounded-2xl bg-surface-container-lowest shadow-sm gap-3">
+<div class="flex items-center gap-3">
+<div class="w-9 h-9 rounded-full bg-surface-container-high flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[20px]">cleaning_services</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Limpieza Dental</h3>
+</div>
+<ul class="flex flex-col gap-2">
+<li class="flex items-start gap-2">
+<span class="material-symbols-outlined text-primary text-[18px] shrink-0 mt-0.5">check_circle</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Profilaxis dental cuidadosa</span>
+</li>
+<li class="flex items-start gap-2">
+<span class="material-symbols-outlined text-primary text-[18px] shrink-0 mt-0.5">check_circle</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Eliminación de sarro y placa dental</span>
+</li>
+<li class="flex items-start gap-2">
+<span class="material-symbols-outlined text-primary text-[18px] shrink-0 mt-0.5">check_circle</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Pulido y prevención gingival</span>
+</li>
+</ul>
+<a class="mt-1 w-full min-h-[40px] flex items-center justify-center gap-1.5 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-md text-label-md hover:bg-secondary-container transition-colors" href="https://wa.me/526671004545?text=Hola%20Dra.%20Daniela,%20me%20gustar%C3%ADa%20consultar%20por%20el%20servicio%20de%20Limpieza%20Dental" target="_blank">
+<span>Consultar por Limpieza</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+<!-- Card 2: Resinas Estéticas (Destacada) -->
+<div class="relative flex flex-col p-4 rounded-2xl bg-surface-container-lowest shadow-md gap-3 bg-gradient-to-b from-secondary-fixed/30 to-surface-container-lowest">
+<div class="inline-flex items-center gap-1 self-start px-2.5 py-0.5 rounded-full bg-primary text-on-primary font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[14px]">auto_awesome</span>
+<span>TRATAMIENTO FRECUENTE</span>
+</div>
+<div class="flex items-center gap-3">
+<div class="w-9 h-9 rounded-full bg-primary flex items-center justify-center text-on-primary">
+<span class="material-symbols-outlined text-[20px]">dentistry</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Resinas Estéticas</h3>
+</div>
+<ul class="flex flex-col gap-2">
+<li class="flex items-start gap-2">
+<span class="material-symbols-outlined text-primary text-[18px] shrink-0 mt-0.5">check_circle</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Tono similar al esmalte natural</span>
+</li>
+<li class="flex items-start gap-2">
+<span class="material-symbols-outlined text-primary text-[18px] shrink-0 mt-0.5">check_circle</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Eliminación precisa de caries</span>
+</li>
+<li class="flex items-start gap-2">
+<span class="material-symbols-outlined text-primary text-[18px] shrink-0 mt-0.5">check_circle</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Restauración funcional y estética</span>
+</li>
+</ul>
+<a class="mt-1 w-full min-h-[44px] flex items-center justify-center gap-1.5 rounded-full bg-primary text-on-primary font-label-md text-label-md shadow-sm hover:bg-primary-container transition-colors" href="https://wa.me/526671004545?text=Hola%20Dra.%20Daniela,%20me%20gustar%C3%ADa%20consultar%20por%20el%20servicio%20de%20Resinas%20Est%C3%A9ticas" target="_blank">
+<span>Consultar por Resinas</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+<!-- Card 3: Extracciones -->
+<div class="flex flex-col p-4 rounded-2xl bg-surface-container-lowest shadow-sm gap-3">
+<div class="flex items-center gap-3">
+<div class="w-9 h-9 rounded-full bg-surface-container-high flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[20px]">medical_services</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Extracciones</h3>
+</div>
+<ul class="flex flex-col gap-2">
+<li class="flex items-start gap-2">
+<span class="material-symbols-outlined text-primary text-[18px] shrink-0 mt-0.5">check_circle</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Procedimientos delicados y controlados</span>
+</li>
+<li class="flex items-start gap-2">
+<span class="material-symbols-outlined text-primary text-[18px] shrink-0 mt-0.5">check_circle</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Anestesia aplicada con cuidado</span>
+</li>
+<li class="flex items-start gap-2">
+<span class="material-symbols-outlined text-primary text-[18px] shrink-0 mt-0.5">check_circle</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Instrucciones claras de recuperación</span>
+</li>
+</ul>
+<a class="mt-1 w-full min-h-[40px] flex items-center justify-center gap-1.5 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-md text-label-md hover:bg-secondary-container transition-colors" href="https://wa.me/526671004545?text=Hola%20Dra.%20Daniela,%20me%20gustar%C3%ADa%20consultar%20por%20el%20servicio%20de%20Extracciones" target="_blank">
+<span>Consultar por Extracciones</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- CTA 2: Banner de Conversión -->
+<div class="mt-2 flex flex-col p-5 rounded-2xl bg-inverse-surface text-inverse-on-surface shadow-md gap-3.5">
+<div class="flex items-center gap-2 text-secondary-fixed">
+<span class="material-symbols-outlined text-[22px]">contact_support</span>
+<span class="font-label-lg text-label-lg font-semibold">¿Tienes dudas sobre qué tratamiento necesitas?</span>
+</div>
+<p class="font-body-sm text-body-sm text-surface-container-high leading-relaxed">
+        Recibe orientación directa de la Dra. Daniela Medina y programa tu valoración inicial con cita previa.
+      </p>
+<a class="w-full min-h-[44px] flex items-center justify-center gap-2 rounded-full bg-primary-fixed text-on-primary-fixed font-label-md text-label-md font-bold shadow-md hover:bg-surface transition-all" href="https://wa.me/526671004545?text=Hola%20Dra.%20Daniela%20Medina,%20deseo%20agendar%20una%20cita%20de%20valoraci%C3%B3n" target="_blank">
+<span class="material-symbols-outlined text-[20px]">calendar_month</span>
+<span>Agendar cita por WhatsApp</span>
+</a>
+</div>
+</section>
+<!-- 4. Compromiso Clínico -->
+<section class="flex flex-col px-space-md py-space-xl gap-space-md bg-surface-container-low">
+<div class="flex flex-col gap-1.5">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-primary font-bold">COMPROMISO CLÍNICO</span>
+<h2 class="font-headline-md text-headline-md text-on-surface">Tu salud bucal en buenas manos</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+        Una experiencia odontológica moderna diseñada para ayudarte a sentir confianza y tranquilidad.
+      </p>
+</div>
+<div class="flex flex-col gap-3 pt-1">
+<div class="flex items-start gap-3.5 p-4 rounded-xl bg-surface-container-lowest shadow-sm">
+<div class="w-10 h-10 rounded-full bg-secondary-fixed flex items-center justify-center text-primary shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-[20px]">shield</span>
+</div>
+<div class="flex flex-col gap-1">
+<h3 class="font-label-lg text-label-lg text-on-surface font-bold">Bioseguridad e Higiene Quirúrgica</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            Materiales esterilizados y protocolos de higiene para tu protección y tranquilidad.
+          </p>
+</div>
+</div>
+<div class="flex items-start gap-3.5 p-4 rounded-xl bg-surface-container-lowest shadow-sm">
+<div class="w-10 h-10 rounded-full bg-secondary-fixed flex items-center justify-center text-primary shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-[20px]">mood</span>
+</div>
+<div class="flex flex-col gap-1">
+<h3 class="font-label-lg text-label-lg text-on-surface font-bold">Consulta tranquila y cómoda</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            Técnicas anestésicas guiadas, explicaciones en cada paso y ambiente calmado para una consulta placentera.
+          </p>
+</div>
+</div>
+<div class="flex items-start gap-3.5 p-4 rounded-xl bg-surface-container-lowest shadow-sm">
+<div class="w-10 h-10 rounded-full bg-secondary-fixed flex items-center justify-center text-primary shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-[20px]">local_parking</span>
+</div>
+<div class="flex flex-col gap-1">
+<h3 class="font-label-lg text-label-lg text-on-surface font-bold">Ubicación Céntrica y Estacionamiento</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            Ubicado en Fraccionamiento Las Torres, zona segura de fácil acceso vial con comodidad para tu visita.
+          </p>
+</div>
+</div>
+</div>
+</section>
+<!-- 5. Testimonios Reales -->
+<section class="flex flex-col px-space-md py-space-xl gap-space-md bg-surface">
+<div class="flex flex-col gap-1.5">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-primary font-bold">TESTIMONIOS</span>
+<h2 class="font-headline-md text-headline-md text-on-surface">Lo que dicen los pacientes</h2>
+<!-- Summary rating chip -->
+<div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-surface-container-high text-on-surface w-fit mt-1">
+<span class="font-label-md text-label-md font-bold text-primary">Google</span>
+<div class="flex text-primary">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Opiniones de pacientes</span>
+</div>
+</div>
+<!-- Review Cards -->
+<div class="flex flex-col gap-3">
+<!-- Review 1 -->
+<div class="flex flex-col p-4 rounded-xl bg-surface-container-lowest shadow-sm gap-2">
+<div class="flex items-center gap-1 text-primary">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface italic">
+          “Excelente doctora, muy profesional. Me explicó mi procedimiento con detalle.”
+        </p>
+<div class="flex items-center justify-between pt-1">
+<span class="font-label-sm text-label-sm font-semibold text-primary">Paciente</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">reviews</span> Testimonio
+          </span>
+</div>
+</div>
+<!-- Review 2 -->
+<div class="flex flex-col p-4 rounded-xl bg-surface-container-lowest shadow-sm gap-2">
+<div class="flex items-center gap-1 text-primary">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface italic">
+          “Atención personalizada y amable; el procedimiento fue cómodo y sin complicaciones.”
+        </p>
+<div class="flex items-center justify-between pt-1">
+<span class="font-label-sm text-label-sm font-semibold text-primary">Paciente</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">reviews</span> Testimonio
+          </span>
+</div>
+</div>
+<!-- Review 3 -->
+<div class="flex flex-col p-4 rounded-xl bg-surface-container-lowest shadow-sm gap-2">
+<div class="flex items-center gap-1 text-primary">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface italic">
+          “Cuentan con medidas de higiene adecuadas.”
+        </p>
+<div class="flex items-center justify-between pt-1">
+<span class="font-label-sm text-label-sm font-semibold text-primary">Paciente</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">reviews</span> Testimonio
+          </span>
+</div>
+</div>
+</div>
+</section>
+<!-- 6. Horarios y Ubicación -->
+<section id="m-ubicacion" class="flex flex-col px-space-md py-space-xl gap-space-md bg-surface-container-lowest">
+<div class="flex flex-col gap-1.5">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-primary font-bold">ATENCIÓN EN CULIACÁN</span>
+<h2 class="font-headline-md text-headline-md text-on-surface">Horarios y Ubicación</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+        Visítanos en Fraccionamiento Las Torres. Te atendemos con cita programada para tu comodidad.
+      </p>
+</div>
+<!-- Card 1: Horarios de Consulta -->
+<div class="flex flex-col p-4 rounded-2xl bg-surface-container-low shadow-sm gap-3">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2 text-on-surface">
+<span class="material-symbols-outlined text-primary text-[22px]">calendar_today</span>
+<h3 class="font-headline-sm text-headline-sm">Horarios de Consulta</h3>
+</div>
+</div>
+<!-- Badge Disponibilidad -->
+<div class="inline-flex items-center gap-1.5 self-start px-2.5 py-1 rounded-full bg-secondary-fixed text-on-secondary-fixed">
+<span class="w-2 h-2 rounded-full bg-primary animate-pulse"></span>
+<span class="font-label-sm text-label-sm font-semibold">Atención con cita previa</span>
+</div>
+<div class="flex flex-col gap-2 pt-1 font-body-sm text-body-sm">
+<div class="flex items-center justify-between py-1 bg-surface-container-lowest/60 px-2.5 rounded-lg">
+<span class="font-medium text-on-surface">Lunes a Viernes</span>
+<span class="text-primary font-semibold">10:00 am – 6:00 pm</span>
+</div>
+<div class="flex items-center justify-between py-1 bg-surface-container-lowest/60 px-2.5 rounded-lg">
+<span class="font-medium text-on-surface">Sábado</span>
+<span class="text-primary font-semibold">10:00 am – 1:00 pm</span>
+</div>
+<div class="flex items-center justify-between py-1 bg-surface-container-lowest/60 px-2.5 rounded-lg">
+<span class="font-medium text-on-surface">Domingo</span>
+<span class="text-on-surface-variant">Cerrado</span>
+</div>
+</div>
+<div class="flex items-start gap-2 p-2.5 rounded-xl bg-surface-container-highest/60 text-on-surface-variant">
+<span class="material-symbols-outlined text-primary text-[18px] shrink-0 mt-0.5">info</span>
+<p class="font-label-sm text-label-sm leading-snug">
+          Para evitar tiempos de espera y procurar un espacio individualizado, la atención se realiza previa cita.
+        </p>
+</div>
+<!-- CTA 3: Repetición de Agenda -->
+<a class="w-full min-h-[46px] mt-1 flex items-center justify-center gap-2 rounded-full bg-primary text-on-primary font-label-lg text-label-lg shadow-md hover:bg-primary-container transition-all" href="https://wa.me/526671004545?text=Hola%20Dra.%20Daniela%20Medina,%20deseo%20agendar%20una%20cita%20previa" target="_blank">
+<span class="material-symbols-outlined text-[20px]">calendar_month</span>
+<span>Agendar cita por WhatsApp</span>
+</a>
+</div>
+<!-- Card 2: Ubicación del Consultorio -->
+<div class="flex flex-col p-4 rounded-2xl bg-surface-container-low shadow-sm gap-3">
+<div class="flex items-center gap-2 text-on-surface">
+<span class="material-symbols-outlined text-primary text-[22px]">location_on</span>
+<h3 class="font-headline-sm text-headline-sm">Ubicación del Consultorio</h3>
+</div>
+<div class="flex flex-col gap-1">
+<span class="font-label-lg text-label-lg text-on-surface font-bold">Dental Medina</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+          Torre de Castilla 6953, Fraccionamiento Las Torres, Culiacán, Sinaloa.
+        </p>
+</div>
+<div class="flex items-center gap-2 text-primary font-body-sm text-body-sm bg-surface-container-lowest px-3 py-2 rounded-xl">
+<span class="material-symbols-outlined text-[18px]">directions_car</span>
+<span>Zona residencial tranquila con facilidad de aparcamiento.</span>
+</div>
+<!-- Map representation container -->
+<div class="w-full h-36 rounded-xl bg-cover bg-center shadow-inner relative flex items-end p-2.5 overflow-hidden" data-location="Torre de Castilla 6953, Fraccionamiento Las Torres, Culiacán, Sinaloa" style="background-image: url('images/mapa.png')">
+<div class="bg-surface/90 backdrop-blur-sm px-2.5 py-1 rounded-lg flex items-center gap-1.5 shadow-sm">
+<span class="material-symbols-outlined text-primary text-[16px]">pin_drop</span>
+<span class="font-label-sm text-label-sm text-on-surface font-semibold">Fracc. Las Torres</span>
+</div>
+</div>
+<a class="w-full min-h-[44px] flex items-center justify-center gap-2 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-md text-label-md hover:bg-secondary-container transition-colors" href="https://maps.google.com/?q=Torre+de+Castilla+6953,+Fraccionamiento+Las+Torres,+Culiacan,+Sinaloa" target="_blank">
+<span class="material-symbols-outlined text-[18px]">map</span>
+<span>Abrir en Google Maps / Cómo llegar</span>
+</a>
+</div>
+</section>
+</div><footer class="w-full bg-surface-container-low px-margin py-space-xl mt-space-xl flex flex-col gap-space-md text-on-surface-variant"><div class="flex flex-col gap-space-xs"><div class="flex items-center gap-space-sm"><img alt="Logotipo tipográfico y símbolo sutil de diente para Dental Medina - Dra. Daniela Medina" class="h-6 w-auto object-contain" src="images/logo.png"/><span class="font-headline-sm text-headline-sm text-primary">Dental Medina</span></div><p class="font-body-sm text-body-sm text-on-surface-variant">Odontología integral y estética dental en Culiacán, Sinaloa. Dra. Daniela Medina.</p></div><div class="flex flex-col gap-space-sm pt-space-xs"><div class="flex items-start gap-space-sm"><span class="material-symbols-outlined text-primary text-[20px] mt-0.5">location_on</span><span class="font-body-sm text-body-sm">Torre de Castilla 6953, Fraccionamiento Las Torres, Culiacán, Sin.</span></div><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-primary text-[20px]">schedule</span><span class="font-body-sm text-body-sm">Lunes a Viernes: 10:00 AM - 6:00 PM | Sáb: 10:00 AM - 1:00 PM</span></div><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-primary text-[20px]">phone_in_talk</span><a class="font-body-sm text-body-sm text-primary font-semibold" href="tel:+526671004545">667 100 4545</a></div></div><div class="pt-space-sm"><p class="font-label-sm text-label-sm text-outline text-center">© 2026 Dental Medina · Dra. Daniela Medina. Todos los derechos reservados.</p></div></footer></main><nav class="fixed bottom-0 w-full z-50 pb-safe bg-surface/90 backdrop-blur-xl shadow-[0_-2px_12px_rgba(117,97,166,0.08)]" data-active-classes="text-primary font-semibold"><div class="px-space-md pt-2 pb-1.5 flex gap-space-sm"><a class="flex-1 min-h-[44px] flex items-center justify-center gap-space-xs rounded-full bg-surface-container-high text-primary font-label-md text-label-md shadow-[0_4px_20px_-2px_rgba(117,97,166,0.08)] transition-all" href="tel:+526671004545"><span class="material-symbols-outlined text-[18px]">call</span><span>Llamar</span></a><a class="flex-[1.4] min-h-[44px] flex items-center justify-center gap-space-xs rounded-full bg-primary text-on-primary font-label-md text-label-md shadow-[0_4px_20px_-2px_rgba(117,97,166,0.18)] transition-all" href="https://wa.me/526671004545?text=Hola%20Dra.%20Daniela%20Medina,%20deseo%20agendar%20una%20cita" target="_blank"><span class="material-symbols-outlined text-[18px]">calendar_month</span><span>Cita WhatsApp</span></a></div><div class="h-12 px-space-md flex items-center justify-around"><a aria-current="page" class="flex flex-col items-center justify-center min-w-[56px] min-h-[44px] transition-colors text-primary font-semibold" data-path="inicio" href="#m-inicio"><span class="material-symbols-outlined text-[20px]">home</span><span class="font-label-sm text-label-sm">Inicio</span></a><a class="flex flex-col items-center justify-center min-w-[56px] min-h-[44px] text-on-surface-variant transition-colors" data-path="tratamientos" href="#m-servicios"><span class="material-symbols-outlined text-[20px]">dentistry</span><span class="font-label-sm text-label-sm">Servicios</span></a><a class="flex flex-col items-center justify-center min-w-[56px] min-h-[44px] text-on-surface-variant transition-colors" data-path="dra-daniela" href="#m-sobre-mi"><span class="material-symbols-outlined text-[20px]">stethoscope</span><span class="font-label-sm text-label-sm">Dra. Daniela</span></a><a class="flex flex-col items-center justify-center min-w-[56px] min-h-[44px] text-on-surface-variant transition-colors" data-path="contacto" href="#m-ubicacion"><span class="material-symbols-outlined text-[20px]">pin_drop</span><span class="font-label-sm text-label-sm">Clínica</span></a></div></nav>
+</div>
+</body></html>
