@@ -1,0 +1,71 @@
+/* Animaciones de Dental Medina.
+   Solo transform y opacity. Todo cuelga de html.anim-on, que activa animations.js
+   únicamente si el JS cargó, no hay prefers-reduced-motion y la URL no trae ?captura=1.
+   Sin esa clase el sitio se ve exactamente como el diseño base. */
+
+@media (prefers-reduced-motion: no-preference) {
+  html { scroll-behavior: smooth; }
+
+  @keyframes anim-rise {
+    from { opacity: 0; transform: translate3d(0, 20px, 0); }
+    to   { opacity: 1; transform: translate3d(0, 0, 0); }
+  }
+  @keyframes anim-rise-hero {
+    from { opacity: 0; transform: translate3d(0, 18px, 0); }
+    to   { opacity: 1; transform: translate3d(0, 0, 0); }
+  }
+  @keyframes anim-star {
+    from { opacity: 0; transform: scale(0.6); }
+    to   { opacity: 1; transform: scale(1); }
+  }
+  @keyframes anim-pulse {
+    0%, 100% { transform: scale(1); }
+    50%      { transform: scale(1.045); }
+  }
+
+  /* Estado inicial: solo oculto cuando el JS confirmó que cargó */
+  html.anim-on [data-reveal]:not(.is-visible),
+  html.anim-on [data-star]:not(.star-in) { opacity: 0; }
+
+  /* fill-mode "backwards": mantiene el estado inicial durante el retraso y al
+     terminar devuelve el estilo normal del elemento (sin pisar sus hover). */
+  html.anim-on [data-reveal].is-visible {
+    animation: anim-rise 650ms cubic-bezier(0.22, 0.61, 0.36, 1) backwards;
+  }
+  html.anim-on [data-reveal="hero"].is-visible {
+    animation: anim-rise-hero 750ms cubic-bezier(0.22, 0.61, 0.36, 1) backwards;
+  }
+  html.anim-on [data-star].star-in {
+    animation: anim-star 320ms ease-out backwards;
+  }
+
+  /* Botones de WhatsApp y llamada (solo los que son botones, no los enlaces de texto) */
+  html.anim-on a[href^="https://wa.me"][class*="rounded"],
+  html.anim-on a[href^="tel:"][class*="rounded"] {
+    transition-property: transform, box-shadow, background-color, border-color, color;
+    transition-duration: 300ms;
+    transition-timing-function: ease;
+  }
+  @media (hover: hover) {
+    html.anim-on a[href^="https://wa.me"][class*="rounded"]:hover,
+    html.anim-on a[href^="tel:"][class*="rounded"]:hover {
+      transform: translate3d(0, -2px, 0);
+      box-shadow: 0 8px 20px -8px rgba(92, 73, 140, 0.4);
+    }
+  }
+
+  /* Pulso suave del botón de cita de la barra inferior móvil: 3 ciclos y se detiene */
+  html.anim-on #vista-movil nav a[href^="https://wa.me"] {
+    animation: anim-pulse 1600ms ease-in-out 1200ms 3;
+  }
+
+  /* Tarjetas y fotos: elevación sutil solo en escritorio con puntero */
+  @media (hover: hover) and (min-width: 768px) {
+    html.anim-on .anim-trans {
+      transition: transform 350ms ease, box-shadow 350ms ease;
+    }
+    html.anim-on .anim-card:hover {
+      transform: translate3d(0, -4px, 0);
+    }
+  }
+}
